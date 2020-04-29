@@ -6,7 +6,7 @@ preserveTaxonomyNames = "true"
 
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "gingerzoealex static site"
+title = "HUGO MyPortfolio Theme"
 theme = "hugo-myportfolio-theme"
 
 
