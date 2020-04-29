@@ -1,0 +1,15 @@
+{{ partial "header" .}}
+
+<h1>{{ .Title | markdownify }}</h1>
+{{ .Content }}
+
+{{ $pages := where site.RegularPages "Type" "in" .Site.Params.mainSections }}
+{{ range first 1 $pages }}
+{{ if in .Site.Params.mainSections "what-have-i-done" }}
+{{ partial "portfolio/item" .}}
+{{ else if in .Site.Params.mainSections "blogs" }}
+{{ partial "post/item" .}}
+{{ end }}
+{{ end }}
+
+{{ partial "footer" .}}
