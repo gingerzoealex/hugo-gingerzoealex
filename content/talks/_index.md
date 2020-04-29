@@ -1,11 +1,11 @@
 ---
-description: Welcome to the Homepage
+title: Talks
+description: Talks
 ---
 
 These are some of the public speaking events I've participated in.
 
 ## Technical Talks
-
 
 #### What Even is a Dataset?
 [Women Tech Makers 2019](https://womentechmakersbelfast.com/speakers.html) & again at [Ladies of Code Glasgow - July 2019](https://www.meetup.com/Ladies-of-Code-Glasgow/events/263173813/)
